@@ -84,7 +84,7 @@ def hero():
         if(newperiod%2==0):
             sum=getSum(current)
             if(sum%2==0):
-                print(newperiod+1," : 🔴, RED")3
+                print(newperiod+1," : 🔴, RED")
             else:
                 print(newperiod+1,"  : 🍏, GREEN")
         else:
